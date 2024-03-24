@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <input id="first_number" />
+
+        <div class="calculator__oper-btn" id="operation_butn">
+            <button class="calculator__btn" id="plus" onclick="operation='+'">+</button>
+            <button class="calculator__btn" id="minus" onclick="operation='-'">-</button>
+            <button class="calculator__btn" id="times" onclick="operation='*'">x</button>
+            <button class="calculator__btn" id="divide" onclick="operation='/'">:</button>
+        </div>
+
+        <input class="calculator__second-number" id="second_number" />
+
+        <button class="calculator__function" onclick="calculationFunction()">Посчитать</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

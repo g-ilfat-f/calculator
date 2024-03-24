@@ -1,0 +1,26 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding: 20px 150px;
+}
+
+.calculator__second-number {
+    margin-top: 10px;
+}
+
+.calculator__oper-btn {
+    margin-top: 10px;
+}
+
+.calculator__btn:active {
+    background-color: rgb(77, 70, 70);
+}
+
+
+.calculator__function {
+    margin-top: 10px;
+}
